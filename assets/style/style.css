@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Peyda';
-  src: url('style/fonts/peyda/peyda-semiBold.ttf') format('ttf');
+  src: url('assets/fonts/peyda/peyda-semiBold.ttf') format('ttf');
   font-weight: normal;
   font-style:normal;
 }
@@ -85,5 +85,9 @@ body {
   margin-top: 10px;
 }
 ::placeholder {
+  font-family: 'Peyda', sans-serif;
+}
+
+.login-form button {
   font-family: 'Peyda', sans-serif;
 }
